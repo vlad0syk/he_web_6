@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
